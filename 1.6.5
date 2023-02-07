@@ -1,0 +1,6 @@
+LESS_DEPOSIT = 0.10
+MORE_DEPOSIT = 0.25
+less = int(input("Сколько бутылок объемом 1 литр и меньше? "))
+more = int(input("Сколько бутылок объемом больше 1 литра? "))
+refund = less * LESS_DEPOSIT + more * MORE_DEPOSIT
+print("Выручка составит $%.2f." % refund)
