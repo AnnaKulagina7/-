@@ -1,0 +1,7 @@
+TAX_RATE = 0.05
+TIP_RATE = 0.18
+cost = int(input("Введите сумму счета: "))
+tax = cost * TAX_RATE
+tip = cost * TIP_RATE
+total = cost + tax + tip
+print("Налог составил %.2f, чаевые – %.2f, общая сумма заказа: %.2f" % (tax, tip, total))
