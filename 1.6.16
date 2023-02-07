@@ -1,0 +1,7 @@
+import math
+ r = int(input('Введите радиус круга:'))
+print('======================')
+print('')
+print('Радиус кргуа =', r)
+print('S = pi*r^2')
+print('Площадь круга =', math.pi*(r**2))
