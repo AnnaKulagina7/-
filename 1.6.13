@@ -1,0 +1,6 @@
+summa = int(input('Сдача '))
+coins = [100, 50, 10, 5, 2, 1]
+for i in coins:
+res, summa = divmod(summa, i)
+if res:
+print(f'{i} - {res}')
