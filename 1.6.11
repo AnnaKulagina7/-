@@ -1,0 +1,7 @@
+gallon = 3.785
+mile = 1.6093
+ MPG_index = float(input('Enter your MPG index: '))
+KmPL_index = MPG_index * mile / gallon 
+LPKm_index = KmPL_index ** -1 
+LP100Km_index = LPKm_index * 100
+print(LP100Km_index)
