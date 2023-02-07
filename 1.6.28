@@ -1,0 +1,7 @@
+m = float (input('Введите ваш вес: '))
+h = float (input('Введите ваш рост в см: '))
+h = h/100 #переводим в метры
+def index(m,h):
+    index_mass = round(m / (h**2)) # формула из вики и округление
+    print('Индекс массы тела равен: ', index_mass)
+ index(m,h)
